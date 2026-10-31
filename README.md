@@ -102,11 +102,3 @@ The camera sketch is Espressif's standard CameraWebServer example, set up for th
 5. In a browser on the same Wi-Fi, open `http://<IP address>` for the camera page, or `http://<IP address>:81/stream` for the video only.
 
 The ESP32-CAM restarts at random if its power supply is weak, so give it a steady 5V supply.
-
-## Credits
-
-The code in `camera/CameraWebServer` comes from Espressif's CameraWebServer example (Apache 2.0 license). Only the Wi-Fi details were changed. The controller and robot code was written for this project.
-
-## Author
-
-Nandhini N, final-year B.Tech ECE student at VIT
